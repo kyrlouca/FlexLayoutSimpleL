@@ -1,0 +1,54 @@
+html{
+    min-height: 30px;
+}
+body{
+    min-height:98vh;
+    background-color: red;
+    display:flex;
+    flex-direction:column;
+
+
+    margin: 0;
+    padding: 0;
+
+}
+#head{
+    background-color: #faebd7;
+    flex: 0 0 0;
+    min-height: 40px;
+}
+#foot{
+    background-color: rgb(248, 251, 255);
+   flex : 0 0 0;
+    min-height: 40px;
+
+
+}
+#container{
+    background-color: rgb(234, 232, 225);
+
+    align-self: auto;
+    flex:1 0 0  ;
+
+    display:flex;
+    flex-wrap: nowrap;
+
+}
+#main{
+    flex :10 1 0;
+    order:1;
+}
+nav{
+
+    order:0;
+    background-color: #f6facd;
+    min-width: 60px;
+}
+aside
+{
+    background-color: #f6facd;
+
+    flex :2 0 0;
+    order: 3;
+    min-width: 100px;
+}
