@@ -4,7 +4,7 @@
 
 var b1= document.querySelector('#b1');
 var in1=document.querySelector('#in1');
-in1.addEventListener('change',changed);
+//in1.addEventListener('change',changed);
 b1.addEventListener('click',show);
 
 
