@@ -3,8 +3,8 @@
  */
 
 var b1= document.querySelector('#b1');
-var t1=document.querySelector('#t1');
-t1.addEventListener('change',changed);
+var in1=document.querySelector('#in1');
+in1.addEventListener('change',changed);
 b1.addEventListener('click',show);
 
 
@@ -13,8 +13,8 @@ function changed(e){
     d1.innerHTML=e.target.value;
 }
 function show(){
-    var t1=document.querySelector('#t1');
+    var in1=document.querySelector('#in1');
     var d1=document.querySelector('#d1');
-    alert(t1.value);
-    d1.innerHTML=t1.value;
+    alert(in1.value);
+    d1.innerHTML=in1.value;
 }
